@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Intel Brief</title>
+<meta name="description" content="Open-source intelligence briefs for any country, region or city: politics, military, economy, social, security, information and infrastructure.">
+<meta name="theme-color" content="#0b1018">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Intel Brief">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<div class="classification" role="note">UNCLASSIFIED // OPEN SOURCE</div>
+
+<header class="masthead wrap">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" /><circle cx="20" cy="20" r="11" /><circle cx="20" cy="20" r="5" /><path d="M20 1v38M1 20h38" /><circle class="blip" cx="27" cy="11" r="2.4" /></svg>
+    <div>
+      <h1>Intel Brief</h1>
+      <p class="tagline">Open-source situation briefs, generated on demand</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <form id="controls" class="controls" autocomplete="off">
+    <fieldset class="kind" aria-label="Location type">
+      <label><input type="radio" name="kind" value="country" checked><span>Country</span></label>
+      <label><input type="radio" name="kind" value="region"><span>Region</span></label>
+      <label><input type="radio" name="kind" value="city"><span>City</span></label>
+    </fieldset>
+    <div class="field grow">
+      <label for="location">Area of interest</label>
+      <select id="location" required><option value="">Loading locations…</option></select>
+    </div>
+    <div class="field custom" id="custom-fields" hidden>
+      <label for="custom-name">City or area name</label>
+      <input id="custom-name" type="text" placeholder="e.g. Kramatorsk">
+      <label for="custom-country">Country (adds Factbook and FCDO context)</label>
+      <select id="custom-country"><option value="">Not specified</option></select>
+    </div>
+    <div class="field">
+      <label for="window">Window</label>
+      <select id="window">
+        <option value="24">Last 24 hours</option>
+        <option value="72" selected>Last 3 days</option>
+        <option value="168">Last 7 days</option>
+      </select>
+    </div>
+    <button id="generate" class="primary" type="submit">Generate brief</button>
+    <details class="options">
+      <summary>Sources</summary>
+      <div class="option-grid">
+        <label><input type="checkbox" id="opt-collected" checked> Google News &amp; Bing News</label>
+        <label><input type="checkbox" id="opt-outlets" checked> International outlet feeds</label>
+        <label><input type="checkbox" id="opt-gdelt" checked> GDELT news monitor</label>
+        <label><input type="checkbox" id="opt-local" checked> GDELT local press</label>
+        <label><input type="checkbox" id="opt-factbook" checked> CIA World Factbook archive</label>
+        <label><input type="checkbox" id="opt-fcdo" checked> UK FCDO travel advice</label>
+        <label><input type="checkbox" id="opt-wikipedia" checked> Wikipedia</label>
+        <label><input type="checkbox" id="opt-english" checked> English-language sources only</label>
+      </div>
+    </details>
+  </form>
+
+  <nav id="recents" class="recents" aria-label="Recent briefs" hidden></nav>
+
+  <section id="intro" class="intro">
+    <h2>One tap, seven lines of effort</h2>
+    <p>Choose a country, region or city and the page assembles a brief from news aggregators, national and local press, the CIA World Factbook archive and UK FCDO travel advice. Reporting is sorted into seven topics, grouped into stories, and summarised.</p>
+    <ul class="topic-legend" id="topic-legend"></ul>
+    <p class="try">Try: <button type="button" data-try="country:su">Sudan</button> <button type="button" data-try="region:taiwan-strait">Taiwan Strait</button> <button type="button" data-try="city:kharkiv-up">Kharkiv</button> <button type="button" data-try="region:sahel">Sahel</button></p>
+  </section>
+
+  <article id="brief" class="brief" hidden aria-live="polite"></article>
+</main>
+
+<footer class="wrap footer">
+  <p>Everything is collected from public sources and analysed in your browser. No account or tracking. Machine-collected material: verify before acting on it.</p>
+  <p id="collector-status"></p>
+</footer>
+</body>
+</html>

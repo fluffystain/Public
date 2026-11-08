@@ -1,0 +1,2236 @@
+[
+ {
+  "code": "af",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Afghanistan",
+  "capital": "Kabul",
+  "adjective": "Afghan",
+  "aliases": []
+ },
+ {
+  "code": "al",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Albania",
+  "capital": "Tirana",
+  "adjective": "Albanian",
+  "aliases": []
+ },
+ {
+  "code": "ag",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Algeria",
+  "capital": "Algiers",
+  "adjective": "Algerian",
+  "aliases": []
+ },
+ {
+  "code": "aq",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "American Samoa",
+  "capital": "Pago Pago",
+  "adjective": "American Samoan",
+  "aliases": []
+ },
+ {
+  "code": "an",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Andorra",
+  "capital": "Andorra la Vella",
+  "adjective": "Andorran",
+  "aliases": []
+ },
+ {
+  "code": "ao",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Angola",
+  "capital": "Luanda",
+  "adjective": "Angolan",
+  "aliases": []
+ },
+ {
+  "code": "av",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Anguilla",
+  "capital": "The Valley",
+  "adjective": "Anguillan",
+  "aliases": []
+ },
+ {
+  "code": "ac",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Antigua and Barbuda",
+  "capital": "Saint John's",
+  "adjective": "Antiguan",
+  "aliases": []
+ },
+ {
+  "code": "ar",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Argentina",
+  "capital": "Buenos Aires",
+  "adjective": "Argentine",
+  "aliases": []
+ },
+ {
+  "code": "am",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Armenia",
+  "capital": "Yerevan",
+  "adjective": "Armenian",
+  "aliases": []
+ },
+ {
+  "code": "aa",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Aruba",
+  "capital": "Oranjestad",
+  "adjective": "Aruban",
+  "aliases": []
+ },
+ {
+  "code": "as",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Australia",
+  "capital": "Canberra",
+  "adjective": "Australian",
+  "aliases": []
+ },
+ {
+  "code": "au",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Austria",
+  "capital": "Vienna",
+  "adjective": "Austrian",
+  "aliases": []
+ },
+ {
+  "code": "aj",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Azerbaijan",
+  "capital": "Baku",
+  "adjective": "Azerbaijani",
+  "aliases": []
+ },
+ {
+  "code": "bf",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Bahamas",
+  "capital": "Nassau",
+  "adjective": "Bahamian",
+  "aliases": [
+   "The Bahamas"
+  ],
+  "fcdo": "bahamas"
+ },
+ {
+  "code": "ba",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Bahrain",
+  "capital": "Manama",
+  "adjective": "Bahraini",
+  "aliases": []
+ },
+ {
+  "code": "bg",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Bangladesh",
+  "capital": "Dhaka",
+  "adjective": "Bangladeshi",
+  "aliases": []
+ },
+ {
+  "code": "bb",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Barbados",
+  "capital": "Bridgetown",
+  "adjective": "Barbadian",
+  "aliases": []
+ },
+ {
+  "code": "bo",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Belarus",
+  "capital": "Minsk",
+  "adjective": "Belarusian",
+  "aliases": []
+ },
+ {
+  "code": "be",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Belgium",
+  "capital": "Brussels",
+  "adjective": "Belgian",
+  "aliases": []
+ },
+ {
+  "code": "bh",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Belize",
+  "capital": "Belmopan",
+  "adjective": "Belizean",
+  "aliases": []
+ },
+ {
+  "code": "bn",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Benin",
+  "capital": "Porto-Novo",
+  "adjective": "Beninese",
+  "aliases": []
+ },
+ {
+  "code": "bd",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "Bermuda",
+  "capital": "Hamilton",
+  "adjective": "Bermudian",
+  "aliases": []
+ },
+ {
+  "code": "bt",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Bhutan",
+  "capital": "Thimphu",
+  "adjective": "Bhutanese",
+  "aliases": []
+ },
+ {
+  "code": "bl",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Bolivia",
+  "capital": "La Paz",
+  "adjective": "Bolivian",
+  "aliases": []
+ },
+ {
+  "code": "bk",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Bosnia and Herzegovina",
+  "capital": "Sarajevo",
+  "adjective": "Bosnian",
+  "aliases": []
+ },
+ {
+  "code": "bc",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Botswana",
+  "capital": "Gaborone",
+  "adjective": "Motswana",
+  "aliases": []
+ },
+ {
+  "code": "br",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Brazil",
+  "capital": "Brasília",
+  "adjective": "Brazilian",
+  "aliases": []
+ },
+ {
+  "code": "vi",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "British Virgin Islands",
+  "capital": "Road Town",
+  "adjective": "British Virgin Islander",
+  "aliases": []
+ },
+ {
+  "code": "bx",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Brunei",
+  "capital": "Bandar Seri Begawan",
+  "adjective": "Bruneian",
+  "aliases": []
+ },
+ {
+  "code": "bu",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Bulgaria",
+  "capital": "Sofia",
+  "adjective": "Bulgarian",
+  "aliases": []
+ },
+ {
+  "code": "uv",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Burkina Faso",
+  "capital": "Ouagadougou",
+  "adjective": "Burkinabe",
+  "aliases": []
+ },
+ {
+  "code": "by",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Burundi",
+  "capital": "Gitega",
+  "adjective": "Burundian",
+  "aliases": []
+ },
+ {
+  "code": "cv",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Cabo Verde",
+  "capital": "Praia",
+  "adjective": "Cabo Verdean",
+  "aliases": [
+   "Cape Verde"
+  ],
+  "fcdo": "cape-verde"
+ },
+ {
+  "code": "cb",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Cambodia",
+  "capital": "Phnom Penh",
+  "adjective": "Cambodian",
+  "aliases": []
+ },
+ {
+  "code": "cm",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Cameroon",
+  "capital": "Yaounde",
+  "adjective": "Cameroonian",
+  "aliases": []
+ },
+ {
+  "code": "ca",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "Canada",
+  "capital": "Ottawa",
+  "adjective": "Canadian",
+  "aliases": []
+ },
+ {
+  "code": "cj",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Cayman Islands",
+  "capital": "George Town",
+  "adjective": "Caymanian",
+  "aliases": []
+ },
+ {
+  "code": "ct",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Central African Republic",
+  "capital": "Bangui",
+  "adjective": "Central African",
+  "aliases": []
+ },
+ {
+  "code": "cd",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Chad",
+  "capital": "N'Djamena",
+  "adjective": "Chadian",
+  "aliases": []
+ },
+ {
+  "code": "ci",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Chile",
+  "capital": "Santiago",
+  "adjective": "Chilean",
+  "aliases": []
+ },
+ {
+  "code": "ch",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "China",
+  "capital": "Beijing",
+  "adjective": "Chinese",
+  "aliases": [
+   "PRC"
+  ]
+ },
+ {
+  "code": "kt",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Christmas Island",
+  "capital": "The Settlement",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "ck",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Cocos (Keeling) Islands",
+  "capital": "West Island",
+  "adjective": "Cocos Islander",
+  "aliases": []
+ },
+ {
+  "code": "co",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Colombia",
+  "capital": "Bogotá",
+  "adjective": "Colombian",
+  "aliases": []
+ },
+ {
+  "code": "cn",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Comoros",
+  "capital": "Moroni",
+  "adjective": "Comoran",
+  "aliases": []
+ },
+ {
+  "code": "cw",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Cook Islands",
+  "capital": "Avarua",
+  "adjective": "Cook Islander",
+  "aliases": []
+ },
+ {
+  "code": "cs",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Costa Rica",
+  "capital": "San José",
+  "adjective": "Costa Rican",
+  "aliases": []
+ },
+ {
+  "code": "hr",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Croatia",
+  "capital": "Zagreb",
+  "adjective": "Croatian",
+  "aliases": []
+ },
+ {
+  "code": "cu",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Cuba",
+  "capital": "Havana",
+  "adjective": "Cuban",
+  "aliases": []
+ },
+ {
+  "code": "uc",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Curacao",
+  "capital": "Willemstad",
+  "adjective": "Curacaoan",
+  "aliases": []
+ },
+ {
+  "code": "cy",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Cyprus",
+  "capital": "Nicosia",
+  "adjective": "Cypriot",
+  "aliases": []
+ },
+ {
+  "code": "ez",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Czechia",
+  "capital": "Prague",
+  "adjective": "Czech",
+  "aliases": [
+   "Czech Republic"
+  ],
+  "fcdo": "czech-republic"
+ },
+ {
+  "code": "iv",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Côte d'Ivoire",
+  "capital": "Yamoussoukro",
+  "adjective": "Ivoirian",
+  "aliases": [
+   "Ivory Coast",
+   "Cote d'Ivoire"
+  ],
+  "fcdo": "cote-d-ivoire"
+ },
+ {
+  "code": "cg",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Democratic Republic of the Congo",
+  "capital": "Kinshasa",
+  "adjective": "Congolese",
+  "aliases": [
+   "DRC",
+   "DR Congo",
+   "Congo-Kinshasa"
+  ],
+  "fcdo": "democratic-republic-of-the-congo"
+ },
+ {
+  "code": "da",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Denmark",
+  "capital": "Copenhagen",
+  "adjective": "Danish",
+  "aliases": []
+ },
+ {
+  "code": "dj",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Djibouti",
+  "capital": "Djibouti",
+  "adjective": "Djiboutian",
+  "aliases": []
+ },
+ {
+  "code": "do",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Dominica",
+  "capital": "Roseau",
+  "adjective": "Dominican",
+  "aliases": []
+ },
+ {
+  "code": "dr",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Dominican Republic",
+  "capital": "Santo Domingo",
+  "adjective": "Dominican",
+  "aliases": []
+ },
+ {
+  "code": "ec",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Ecuador",
+  "capital": "Quito",
+  "adjective": "Ecuadorian",
+  "aliases": []
+ },
+ {
+  "code": "eg",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Egypt",
+  "capital": "Cairo",
+  "adjective": "Egyptian",
+  "aliases": []
+ },
+ {
+  "code": "es",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "El Salvador",
+  "capital": "San Salvador",
+  "adjective": "Salvadoran",
+  "aliases": []
+ },
+ {
+  "code": "ek",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Equatorial Guinea",
+  "capital": "Malabo",
+  "adjective": "Equatorial Guinean",
+  "aliases": []
+ },
+ {
+  "code": "er",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Eritrea",
+  "capital": "Asmara",
+  "adjective": "Eritrean",
+  "aliases": []
+ },
+ {
+  "code": "en",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Estonia",
+  "capital": "Tallinn",
+  "adjective": "Estonian",
+  "aliases": []
+ },
+ {
+  "code": "wz",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Eswatini",
+  "capital": "Mbabane",
+  "adjective": "Swati",
+  "aliases": [
+   "Swaziland"
+  ]
+ },
+ {
+  "code": "et",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Ethiopia",
+  "capital": "Addis Ababa",
+  "adjective": "Ethiopian",
+  "aliases": []
+ },
+ {
+  "code": "ee",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "European Union",
+  "capital": "Brussels",
+  "adjective": "",
+  "aliases": [],
+  "fcdo": ""
+ },
+ {
+  "code": "fk",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Falkland Islands",
+  "capital": "Stanley",
+  "adjective": "Falkland Island",
+  "aliases": []
+ },
+ {
+  "code": "fo",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Faroe Islands",
+  "capital": "Torshavn",
+  "adjective": "Faroese",
+  "aliases": []
+ },
+ {
+  "code": "fm",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Federated States of Micronesia",
+  "capital": "Palikir",
+  "adjective": "Micronesian",
+  "aliases": [
+   "Micronesia"
+  ]
+ },
+ {
+  "code": "fj",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Fiji",
+  "capital": "Suva",
+  "adjective": "Fijian",
+  "aliases": []
+ },
+ {
+  "code": "fi",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Finland",
+  "capital": "Helsinki",
+  "adjective": "Finnish",
+  "aliases": []
+ },
+ {
+  "code": "fr",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "France",
+  "capital": "Paris",
+  "adjective": "French",
+  "aliases": []
+ },
+ {
+  "code": "fp",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "French Polynesia",
+  "capital": "Papeete",
+  "adjective": "French Polynesian",
+  "aliases": []
+ },
+ {
+  "code": "gb",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Gabon",
+  "capital": "Libreville",
+  "adjective": "Gabonese",
+  "aliases": []
+ },
+ {
+  "code": "ga",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Gambia",
+  "capital": "Banjul",
+  "adjective": "Gambian",
+  "aliases": [
+   "The Gambia"
+  ],
+  "fcdo": "the-gambia"
+ },
+ {
+  "code": "gz",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Gaza Strip",
+  "capital": "Gaza City",
+  "adjective": "",
+  "aliases": [
+   "Gaza",
+   "Palestine",
+   "Occupied Palestinian Territories"
+  ],
+  "fcdo": "the-occupied-palestinian-territories"
+ },
+ {
+  "code": "gg",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Georgia",
+  "capital": "Tbilisi",
+  "adjective": "Georgian",
+  "aliases": []
+ },
+ {
+  "code": "gm",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Germany",
+  "capital": "Berlin",
+  "adjective": "German",
+  "aliases": []
+ },
+ {
+  "code": "gh",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Ghana",
+  "capital": "Accra",
+  "adjective": "Ghanaian",
+  "aliases": []
+ },
+ {
+  "code": "gi",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Gibraltar",
+  "capital": "Gibraltar",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "gr",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Greece",
+  "capital": "Athens",
+  "adjective": "Greek",
+  "aliases": []
+ },
+ {
+  "code": "gl",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "Greenland",
+  "capital": "Nuuk",
+  "adjective": "Greenlandic",
+  "aliases": []
+ },
+ {
+  "code": "gj",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Grenada",
+  "capital": "Saint George's",
+  "adjective": "Grenadian",
+  "aliases": []
+ },
+ {
+  "code": "gq",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Guam",
+  "capital": "Hagatna",
+  "adjective": "Guamanian",
+  "aliases": []
+ },
+ {
+  "code": "gt",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Guatemala",
+  "capital": "Guatemala City",
+  "adjective": "Guatemalan",
+  "aliases": []
+ },
+ {
+  "code": "gk",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Guernsey",
+  "capital": "Saint Peter Port",
+  "adjective": "Channel Islander",
+  "aliases": []
+ },
+ {
+  "code": "gv",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Guinea",
+  "capital": "Conakry",
+  "adjective": "Guinean",
+  "aliases": []
+ },
+ {
+  "code": "pu",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Guinea-Bissau",
+  "capital": "Bissau",
+  "adjective": "Bissau-Guinean",
+  "aliases": []
+ },
+ {
+  "code": "gy",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Guyana",
+  "capital": "Georgetown",
+  "adjective": "Guyanese",
+  "aliases": []
+ },
+ {
+  "code": "ha",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Haiti",
+  "capital": "Port-au-Prince",
+  "adjective": "Haitian",
+  "aliases": []
+ },
+ {
+  "code": "ho",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Honduras",
+  "capital": "Tegucigalpa",
+  "adjective": "Honduran",
+  "aliases": []
+ },
+ {
+  "code": "hk",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Hong Kong",
+  "capital": "",
+  "adjective": "Chinese/Hong Kong",
+  "aliases": []
+ },
+ {
+  "code": "hu",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Hungary",
+  "capital": "Budapest",
+  "adjective": "Hungarian",
+  "aliases": []
+ },
+ {
+  "code": "ic",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Iceland",
+  "capital": "Reykjavik",
+  "adjective": "Icelandic",
+  "aliases": []
+ },
+ {
+  "code": "in",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "India",
+  "capital": "New Delhi",
+  "adjective": "Indian",
+  "aliases": []
+ },
+ {
+  "code": "id",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Indonesia",
+  "capital": "Jakarta",
+  "adjective": "Indonesian",
+  "aliases": []
+ },
+ {
+  "code": "ir",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Iran",
+  "capital": "Tehran",
+  "adjective": "Iranian",
+  "aliases": []
+ },
+ {
+  "code": "iz",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Iraq",
+  "capital": "Baghdad",
+  "adjective": "Iraqi",
+  "aliases": []
+ },
+ {
+  "code": "ei",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Ireland",
+  "capital": "Dublin",
+  "adjective": "Irish",
+  "aliases": []
+ },
+ {
+  "code": "im",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Isle of Man",
+  "capital": "Douglas",
+  "adjective": "Manx",
+  "aliases": []
+ },
+ {
+  "code": "is",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Israel",
+  "capital": "Jerusalem",
+  "adjective": "Israeli",
+  "aliases": []
+ },
+ {
+  "code": "it",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Italy",
+  "capital": "Rome",
+  "adjective": "Italian",
+  "aliases": []
+ },
+ {
+  "code": "jm",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Jamaica",
+  "capital": "Kingston",
+  "adjective": "Jamaican",
+  "aliases": []
+ },
+ {
+  "code": "ja",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Japan",
+  "capital": "Tokyo",
+  "adjective": "Japanese",
+  "aliases": []
+ },
+ {
+  "code": "je",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Jersey",
+  "capital": "Saint Helier",
+  "adjective": "Channel Islander",
+  "aliases": []
+ },
+ {
+  "code": "jo",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Jordan",
+  "capital": "Amman",
+  "adjective": "Jordanian",
+  "aliases": []
+ },
+ {
+  "code": "kz",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Kazakhstan",
+  "capital": "Astana",
+  "adjective": "Kazakhstani",
+  "aliases": []
+ },
+ {
+  "code": "ke",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Kenya",
+  "capital": "Nairobi",
+  "adjective": "Kenyan",
+  "aliases": []
+ },
+ {
+  "code": "kr",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Kiribati",
+  "capital": "Tarawa",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "kv",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Kosovo",
+  "capital": "Pristina",
+  "adjective": "Kosovan",
+  "aliases": []
+ },
+ {
+  "code": "ku",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Kuwait",
+  "capital": "Kuwait City",
+  "adjective": "Kuwaiti",
+  "aliases": []
+ },
+ {
+  "code": "kg",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Kyrgyzstan",
+  "capital": "Bishkek",
+  "adjective": "Kyrgyzstani",
+  "aliases": []
+ },
+ {
+  "code": "la",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Laos",
+  "capital": "Vientiane",
+  "adjective": "Lao",
+  "aliases": []
+ },
+ {
+  "code": "lg",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Latvia",
+  "capital": "Riga",
+  "adjective": "Latvian",
+  "aliases": []
+ },
+ {
+  "code": "le",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Lebanon",
+  "capital": "Beirut",
+  "adjective": "Lebanese",
+  "aliases": []
+ },
+ {
+  "code": "lt",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Lesotho",
+  "capital": "Maseru",
+  "adjective": "Basotho",
+  "aliases": []
+ },
+ {
+  "code": "li",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Liberia",
+  "capital": "Monrovia",
+  "adjective": "Liberian",
+  "aliases": []
+ },
+ {
+  "code": "ly",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Libya",
+  "capital": "Tripoli",
+  "adjective": "Libyan",
+  "aliases": []
+ },
+ {
+  "code": "ls",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Liechtenstein",
+  "capital": "Vaduz",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "lh",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Lithuania",
+  "capital": "Vilnius",
+  "adjective": "Lithuanian",
+  "aliases": []
+ },
+ {
+  "code": "lu",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Luxembourg",
+  "capital": "Luxembourg",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "mc",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Macau",
+  "capital": "",
+  "adjective": "Chinese",
+  "aliases": []
+ },
+ {
+  "code": "ma",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Madagascar",
+  "capital": "Antananarivo",
+  "adjective": "Malagasy",
+  "aliases": []
+ },
+ {
+  "code": "mi",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Malawi",
+  "capital": "Lilongwe",
+  "adjective": "Malawian",
+  "aliases": []
+ },
+ {
+  "code": "my",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Malaysia",
+  "capital": "Kuala Lumpur",
+  "adjective": "Malaysian",
+  "aliases": []
+ },
+ {
+  "code": "mv",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Maldives",
+  "capital": "Malé",
+  "adjective": "Maldivian",
+  "aliases": []
+ },
+ {
+  "code": "ml",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Mali",
+  "capital": "Bamako",
+  "adjective": "Malian",
+  "aliases": []
+ },
+ {
+  "code": "mt",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Malta",
+  "capital": "Valletta",
+  "adjective": "Maltese",
+  "aliases": []
+ },
+ {
+  "code": "rm",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Marshall Islands",
+  "capital": "Majuro",
+  "adjective": "Marshallese",
+  "aliases": []
+ },
+ {
+  "code": "mr",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Mauritania",
+  "capital": "Nouakchott",
+  "adjective": "Mauritanian",
+  "aliases": []
+ },
+ {
+  "code": "mp",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Mauritius",
+  "capital": "Port Louis",
+  "adjective": "Mauritian",
+  "aliases": []
+ },
+ {
+  "code": "mx",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "Mexico",
+  "capital": "Mexico City",
+  "adjective": "Mexican",
+  "aliases": []
+ },
+ {
+  "code": "md",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Moldova",
+  "capital": "Chisinau",
+  "adjective": "Moldovan",
+  "aliases": []
+ },
+ {
+  "code": "mn",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Monaco",
+  "capital": "Monaco",
+  "adjective": "Monegasque",
+  "aliases": []
+ },
+ {
+  "code": "mg",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Mongolia",
+  "capital": "Ulaanbaatar",
+  "adjective": "Mongolian",
+  "aliases": []
+ },
+ {
+  "code": "mj",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Montenegro",
+  "capital": "Podgorica",
+  "adjective": "Montenegrin",
+  "aliases": []
+ },
+ {
+  "code": "mh",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Montserrat",
+  "capital": "Plymouth",
+  "adjective": "Montserratian",
+  "aliases": []
+ },
+ {
+  "code": "mo",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Morocco",
+  "capital": "Rabat",
+  "adjective": "Moroccan",
+  "aliases": []
+ },
+ {
+  "code": "mz",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Mozambique",
+  "capital": "Maputo",
+  "adjective": "Mozambican",
+  "aliases": []
+ },
+ {
+  "code": "bm",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Myanmar",
+  "capital": "Rangoon",
+  "adjective": "Burmese",
+  "aliases": [
+   "Burma"
+  ],
+  "fcdo": "myanmar"
+ },
+ {
+  "code": "wa",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Namibia",
+  "capital": "Windhoek",
+  "adjective": "Namibian",
+  "aliases": []
+ },
+ {
+  "code": "nr",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Nauru",
+  "capital": "",
+  "adjective": "Nauruan",
+  "aliases": []
+ },
+ {
+  "code": "np",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Nepal",
+  "capital": "Kathmandu",
+  "adjective": "Nepali",
+  "aliases": []
+ },
+ {
+  "code": "nl",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Netherlands",
+  "capital": "Amsterdam",
+  "adjective": "Dutch",
+  "aliases": []
+ },
+ {
+  "code": "nc",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "New Caledonia",
+  "capital": "Noumea",
+  "adjective": "New Caledonian",
+  "aliases": []
+ },
+ {
+  "code": "nz",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "New Zealand",
+  "capital": "Wellington",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "nu",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Nicaragua",
+  "capital": "Managua",
+  "adjective": "Nicaraguan",
+  "aliases": []
+ },
+ {
+  "code": "ng",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Niger",
+  "capital": "Niamey",
+  "adjective": "Nigerien",
+  "aliases": []
+ },
+ {
+  "code": "ni",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Nigeria",
+  "capital": "Abuja",
+  "adjective": "Nigerian",
+  "aliases": []
+ },
+ {
+  "code": "ne",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Niue",
+  "capital": "Alofi",
+  "adjective": "Niuean",
+  "aliases": []
+ },
+ {
+  "code": "nf",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Norfolk Island",
+  "capital": "Kingston",
+  "adjective": "Norfolk Islander",
+  "aliases": []
+ },
+ {
+  "code": "kn",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "North Korea",
+  "capital": "Pyongyang",
+  "adjective": "Korean",
+  "aliases": [
+   "DPRK"
+  ]
+ },
+ {
+  "code": "mk",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "North Macedonia",
+  "capital": "Skopje",
+  "adjective": "Macedonian",
+  "aliases": [
+   "Macedonia"
+  ]
+ },
+ {
+  "code": "cq",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Northern Mariana Islands",
+  "capital": "Saipan",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "no",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Norway",
+  "capital": "Oslo",
+  "adjective": "Norwegian",
+  "aliases": []
+ },
+ {
+  "code": "mu",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Oman",
+  "capital": "Muscat",
+  "adjective": "Omani",
+  "aliases": []
+ },
+ {
+  "code": "pk",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Pakistan",
+  "capital": "Islamabad",
+  "adjective": "Pakistani",
+  "aliases": []
+ },
+ {
+  "code": "ps",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Palau",
+  "capital": "Ngerulmud",
+  "adjective": "Palauan",
+  "aliases": []
+ },
+ {
+  "code": "pm",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Panama",
+  "capital": "Panama City",
+  "adjective": "Panamanian",
+  "aliases": []
+ },
+ {
+  "code": "pp",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Papua New Guinea",
+  "capital": "Port Moresby",
+  "adjective": "Papua New Guinean",
+  "aliases": []
+ },
+ {
+  "code": "pf",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Paracel Islands",
+  "capital": "",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "pa",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Paraguay",
+  "capital": "Asunción",
+  "adjective": "Paraguayan",
+  "aliases": []
+ },
+ {
+  "code": "pe",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Peru",
+  "capital": "Lima",
+  "adjective": "Peruvian",
+  "aliases": []
+ },
+ {
+  "code": "rp",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Philippines",
+  "capital": "Manila",
+  "adjective": "Philippine",
+  "aliases": []
+ },
+ {
+  "code": "pc",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Pitcairn Islands",
+  "capital": "Adamstown",
+  "adjective": "Pitcairn Islander",
+  "aliases": []
+ },
+ {
+  "code": "pl",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Poland",
+  "capital": "Warsaw",
+  "adjective": "Polish",
+  "aliases": []
+ },
+ {
+  "code": "po",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Portugal",
+  "capital": "Lisbon",
+  "adjective": "Portuguese",
+  "aliases": []
+ },
+ {
+  "code": "rq",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Puerto Rico",
+  "capital": "San Juan",
+  "adjective": "Puerto Rican",
+  "aliases": []
+ },
+ {
+  "code": "qa",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Qatar",
+  "capital": "Doha",
+  "adjective": "Qatari",
+  "aliases": []
+ },
+ {
+  "code": "cf",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Republic of the Congo",
+  "capital": "Brazzaville",
+  "adjective": "Congolese",
+  "aliases": [
+   "Congo-Brazzaville",
+   "Congo"
+  ],
+  "fcdo": "congo"
+ },
+ {
+  "code": "ro",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Romania",
+  "capital": "Bucharest",
+  "adjective": "Romanian",
+  "aliases": []
+ },
+ {
+  "code": "rs",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Russia",
+  "capital": "Moscow",
+  "adjective": "Russian",
+  "aliases": [
+   "Russian Federation"
+  ]
+ },
+ {
+  "code": "rw",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Rwanda",
+  "capital": "Kigali",
+  "adjective": "Rwandan",
+  "aliases": []
+ },
+ {
+  "code": "tb",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Saint Barthelemy",
+  "capital": "Gustavia",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "sh",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Saint Helena",
+  "capital": "Jamestown",
+  "adjective": "Saint Helenian",
+  "aliases": []
+ },
+ {
+  "code": "sc",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Saint Kitts and Nevis",
+  "capital": "Basseterre",
+  "adjective": "Kittitian",
+  "aliases": []
+ },
+ {
+  "code": "st",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Saint Lucia",
+  "capital": "Castries",
+  "adjective": "Saint Lucian",
+  "aliases": []
+ },
+ {
+  "code": "rn",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Saint Martin",
+  "capital": "Marigot",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "sb",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "Saint Pierre and Miquelon",
+  "capital": "Saint-Pierre",
+  "adjective": "French",
+  "aliases": []
+ },
+ {
+  "code": "vc",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Saint Vincent and the Grenadines",
+  "capital": "Kingstown",
+  "adjective": "Saint Vincentian",
+  "aliases": []
+ },
+ {
+  "code": "ws",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Samoa",
+  "capital": "Apia",
+  "adjective": "Samoan",
+  "aliases": []
+ },
+ {
+  "code": "sm",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "San Marino",
+  "capital": "San Marino",
+  "adjective": "Sammarinese",
+  "aliases": []
+ },
+ {
+  "code": "tp",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Sao Tome and Principe",
+  "capital": "Sao Tome",
+  "adjective": "Sao Tomean",
+  "aliases": []
+ },
+ {
+  "code": "sa",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Saudi Arabia",
+  "capital": "Riyadh",
+  "adjective": "Saudi",
+  "aliases": []
+ },
+ {
+  "code": "sg",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Senegal",
+  "capital": "Dakar",
+  "adjective": "Senegalese",
+  "aliases": []
+ },
+ {
+  "code": "ri",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Serbia",
+  "capital": "Belgrade",
+  "adjective": "Serbian",
+  "aliases": []
+ },
+ {
+  "code": "se",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Seychelles",
+  "capital": "Victoria",
+  "adjective": "Seychellois",
+  "aliases": []
+ },
+ {
+  "code": "sl",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Sierra Leone",
+  "capital": "Freetown",
+  "adjective": "Sierra Leonean",
+  "aliases": []
+ },
+ {
+  "code": "sn",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Singapore",
+  "capital": "Singapore",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "nn",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Sint Maarten",
+  "capital": "Philipsburg",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "lo",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Slovakia",
+  "capital": "Bratislava",
+  "adjective": "Slovak",
+  "aliases": []
+ },
+ {
+  "code": "si",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Slovenia",
+  "capital": "Ljubljana",
+  "adjective": "Slovenian",
+  "aliases": []
+ },
+ {
+  "code": "bp",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Solomon Islands",
+  "capital": "Honiara",
+  "adjective": "Solomon Islander",
+  "aliases": []
+ },
+ {
+  "code": "so",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Somalia",
+  "capital": "Mogadishu",
+  "adjective": "Somali",
+  "aliases": []
+ },
+ {
+  "code": "sf",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "South Africa",
+  "capital": "Pretoria",
+  "adjective": "South African",
+  "aliases": []
+ },
+ {
+  "code": "ks",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "South Korea",
+  "capital": "Seoul",
+  "adjective": "Korean",
+  "aliases": [
+   "Republic of Korea"
+  ]
+ },
+ {
+  "code": "od",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "South Sudan",
+  "capital": "Juba",
+  "adjective": "South Sudanese",
+  "aliases": []
+ },
+ {
+  "code": "sp",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Spain",
+  "capital": "Madrid",
+  "adjective": "Spanish",
+  "aliases": []
+ },
+ {
+  "code": "pg",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Spratly Islands",
+  "capital": "",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "ce",
+  "fbRegion": "south-asia",
+  "area": "South Asia",
+  "name": "Sri Lanka",
+  "capital": "Colombo",
+  "adjective": "Sri Lankan",
+  "aliases": []
+ },
+ {
+  "code": "su",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Sudan",
+  "capital": "Khartoum",
+  "adjective": "Sudanese",
+  "aliases": []
+ },
+ {
+  "code": "ns",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Suriname",
+  "capital": "Paramaribo",
+  "adjective": "Surinamese",
+  "aliases": []
+ },
+ {
+  "code": "sv",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Svalbard",
+  "capital": "Longyearbyen",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "sw",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Sweden",
+  "capital": "Stockholm",
+  "adjective": "Swedish",
+  "aliases": []
+ },
+ {
+  "code": "sz",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Switzerland",
+  "capital": "Bern",
+  "adjective": "Swiss",
+  "aliases": []
+ },
+ {
+  "code": "sy",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Syria",
+  "capital": "Damascus",
+  "adjective": "Syrian",
+  "aliases": []
+ },
+ {
+  "code": "tw",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Taiwan",
+  "capital": "Taipei",
+  "adjective": "",
+  "aliases": [
+   "Republic of China"
+  ]
+ },
+ {
+  "code": "ti",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Tajikistan",
+  "capital": "Dushanbe",
+  "adjective": "Tajikistani",
+  "aliases": []
+ },
+ {
+  "code": "tz",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Tanzania",
+  "capital": "Dodoma",
+  "adjective": "Tanzanian",
+  "aliases": []
+ },
+ {
+  "code": "th",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Thailand",
+  "capital": "Bangkok",
+  "adjective": "Thai",
+  "aliases": []
+ },
+ {
+  "code": "tt",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Timor-Leste",
+  "capital": "Dili",
+  "adjective": "Timorese",
+  "aliases": [
+   "East Timor"
+  ]
+ },
+ {
+  "code": "to",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Togo",
+  "capital": "Lome",
+  "adjective": "Togolese",
+  "aliases": []
+ },
+ {
+  "code": "tl",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Tokelau",
+  "capital": "",
+  "adjective": "Tokelauan",
+  "aliases": []
+ },
+ {
+  "code": "tn",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Tonga",
+  "capital": "Nuku'alofa",
+  "adjective": "Tongan",
+  "aliases": []
+ },
+ {
+  "code": "td",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Trinidad and Tobago",
+  "capital": "Port of Spain",
+  "adjective": "Trinidadian",
+  "aliases": []
+ },
+ {
+  "code": "ts",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Tunisia",
+  "capital": "Tunis",
+  "adjective": "Tunisian",
+  "aliases": []
+ },
+ {
+  "code": "tu",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Turkey",
+  "capital": "Ankara",
+  "adjective": "Turkish",
+  "aliases": [
+   "Türkiye",
+   "Turkiye"
+  ],
+  "fcdo": "turkey"
+ },
+ {
+  "code": "tx",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Turkmenistan",
+  "capital": "Ashgabat",
+  "adjective": "Turkmenistani",
+  "aliases": []
+ },
+ {
+  "code": "tk",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Turks and Caicos Islands",
+  "capital": "Grand Turk",
+  "adjective": "",
+  "aliases": []
+ },
+ {
+  "code": "tv",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Tuvalu",
+  "capital": "Funafuti",
+  "adjective": "Tuvaluan",
+  "aliases": []
+ },
+ {
+  "code": "ug",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Uganda",
+  "capital": "Kampala",
+  "adjective": "Ugandan",
+  "aliases": []
+ },
+ {
+  "code": "up",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Ukraine",
+  "capital": "Kyiv",
+  "adjective": "Ukrainian",
+  "aliases": []
+ },
+ {
+  "code": "ae",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "United Arab Emirates",
+  "capital": "Abu Dhabi",
+  "adjective": "Emirati",
+  "aliases": [
+   "UAE"
+  ]
+ },
+ {
+  "code": "uk",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "United Kingdom",
+  "capital": "London",
+  "adjective": "British",
+  "aliases": [
+   "UK",
+   "Britain",
+   "Great Britain"
+  ]
+ },
+ {
+  "code": "us",
+  "fbRegion": "north-america",
+  "area": "North America",
+  "name": "United States",
+  "capital": "Washington, D.C.",
+  "adjective": "American",
+  "aliases": [
+   "USA",
+   "United States of America",
+   "US"
+  ],
+  "fcdo": "usa"
+ },
+ {
+  "code": "uy",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Uruguay",
+  "capital": "Montevideo",
+  "adjective": "Uruguayan",
+  "aliases": []
+ },
+ {
+  "code": "uz",
+  "fbRegion": "central-asia",
+  "area": "Russia, Caucasus & Central Asia",
+  "name": "Uzbekistan",
+  "capital": "Tashkent",
+  "adjective": "Uzbekistani",
+  "aliases": []
+ },
+ {
+  "code": "nh",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Vanuatu",
+  "capital": "Port-Vila",
+  "adjective": "Ni-Vanuatu",
+  "aliases": []
+ },
+ {
+  "code": "vt",
+  "fbRegion": "europe",
+  "area": "Europe",
+  "name": "Vatican City",
+  "capital": "Vatican City",
+  "adjective": "",
+  "aliases": [
+   "Holy See"
+  ],
+  "fcdo": ""
+ },
+ {
+  "code": "ve",
+  "fbRegion": "south-america",
+  "area": "South America",
+  "name": "Venezuela",
+  "capital": "Caracas",
+  "adjective": "Venezuelan",
+  "aliases": []
+ },
+ {
+  "code": "vm",
+  "fbRegion": "east-n-southeast-asia",
+  "area": "East & Southeast Asia",
+  "name": "Vietnam",
+  "capital": "Hanoi",
+  "adjective": "Vietnamese",
+  "aliases": []
+ },
+ {
+  "code": "vq",
+  "fbRegion": "central-america-n-caribbean",
+  "area": "Central America & Caribbean",
+  "name": "Virgin Islands",
+  "capital": "Charlotte Amalie",
+  "adjective": "Virgin Islander",
+  "aliases": []
+ },
+ {
+  "code": "wf",
+  "fbRegion": "australia-oceania",
+  "area": "Oceania",
+  "name": "Wallis and Futuna",
+  "capital": "Mata-Utu",
+  "adjective": "Wallisian",
+  "aliases": []
+ },
+ {
+  "code": "we",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "West Bank",
+  "capital": "Ramallah",
+  "adjective": "",
+  "aliases": [
+   "Palestine",
+   "Occupied Palestinian Territories"
+  ],
+  "fcdo": "the-occupied-palestinian-territories"
+ },
+ {
+  "code": "wi",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Western Sahara",
+  "capital": "",
+  "adjective": "Sahrawi",
+  "aliases": []
+ },
+ {
+  "code": "ym",
+  "fbRegion": "middle-east",
+  "area": "Middle East",
+  "name": "Yemen",
+  "capital": "Sanaa",
+  "adjective": "Yemeni",
+  "aliases": []
+ },
+ {
+  "code": "za",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Zambia",
+  "capital": "Lusaka",
+  "adjective": "Zambian",
+  "aliases": []
+ },
+ {
+  "code": "zi",
+  "fbRegion": "africa",
+  "area": "Africa",
+  "name": "Zimbabwe",
+  "capital": "Harare",
+  "adjective": "Zimbabwean",
+  "aliases": []
+ }
+]

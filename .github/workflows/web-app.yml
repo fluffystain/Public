@@ -1,0 +1,49 @@
+name: Publish Intel Brief web app
+
+# Builds the static site, collects news that browsers cannot fetch directly
+# (Google News, Bing News, outlet RSS feeds) and publishes everything to GitHub Pages.
+on:
+  push:
+    branches: [main]
+    paths: ["web/**", "scripts/**", "data/**", ".github/workflows/web-app.yml"]
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Assemble site
+        run: scripts/build_site.sh _site
+      - name: Collect news feeds
+        run: node scripts/trawl.mjs _site
+        continue-on-error: true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,9 @@
+{
+  "name": "Intel Brief",
+  "short_name": "Intel Brief",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1018",
+  "theme_color": "#0b1018",
+  "icons": [{ "src": "icon.png", "sizes": "512x512", "type": "image/png" }]
+}
