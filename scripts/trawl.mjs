@@ -13,6 +13,7 @@ import { mkdir, writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
 import { buildCatalog, orClause, queryTerms, OUTLET_FEEDS } from "../web/js/core.js";
 import { parseFeed } from "./feed.mjs";
+import { gdeltEvents, roads, places } from "./geo.mjs";
 
 const OUT = path.resolve(process.argv[2] || "_site");
 const countries = JSON.parse(await readFile(new URL("../data/countries.json", import.meta.url)));
@@ -77,6 +78,29 @@ await pool(catalog.all, 5, async (loc) => {
     JSON.stringify({ generatedAt: meta.generatedAt, items }));
   meta.locations++;
   await sleep(300);
+});
+
+// 3. Map layers: geolocated GDELT events, road incidents, gazetteer
+async function geo(name, fn) {
+  try { await fn(); } catch (e) { meta[name] = `failed: ${e.message}`; console.log(`${name} failed: ${e.message}`); }
+}
+await geo("events", async () => {
+  const ev = await gdeltEvents(24);
+  await writeFile(path.join(OUT, "data", "events.json"), JSON.stringify({ generatedAt: meta.generatedAt, hours: 24, cells: ev.list }));
+  meta.events = { cells: ev.list.length, rows: ev.rows, files: ev.files, failedFiles: ev.failed };
+  console.log("events:", meta.events);
+});
+await geo("roads", async () => {
+  const r = await roads();
+  await writeFile(path.join(OUT, "data", "roads.json"), JSON.stringify({ generatedAt: meta.generatedAt, incidents: r.list }));
+  meta.roads = r.report;
+  console.log("roads:", r.report);
+});
+await geo("places", async () => {
+  const p = await places();
+  await writeFile(path.join(OUT, "data", "places.json"), JSON.stringify(p));
+  meta.places = p.length;
+  console.log("places:", p.length);
 });
 
 await writeFile(path.join(OUT, "data", "meta.json"), JSON.stringify(meta, null, 1));

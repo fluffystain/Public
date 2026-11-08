@@ -7,7 +7,7 @@ on:
     branches: [main]
     paths: ["web/**", "scripts/**", "data/**", ".github/workflows/web-app.yml"]
   schedule:
-    - cron: "17 */3 * * *"   # every 3 hours
+    - cron: "17 * * * *"   # hourly
   workflow_dispatch:
 
 permissions:

@@ -56,7 +56,7 @@ export function ago(ts) {
 // ---------- GDELT (live; sends CORS headers; one request per ~5 s per visitor) ----------
 
 let lastGdelt = 0;
-async function gdeltCall(query, hours) {
+export async function gdeltCall(query, hours) {
   const url = "https://api.gdeltproject.org/api/v2/doc/doc?" + new URLSearchParams({
     query, mode: "ArtList", format: "json", maxrecords: "150", timespan: `${hours}h`, sort: "DateDesc" });
   for (let attempt = 0; attempt < 3; attempt++) {

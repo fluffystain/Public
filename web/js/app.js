@@ -191,6 +191,7 @@ function render(progress, loc = state.brief?.location, hours = state.brief?.hour
         <button type="button" class="ghost" data-act="share">Share link</button>
         <button type="button" class="ghost" data-act="copy">Copy brief as text</button>
         <button type="button" class="ghost" data-act="refresh"${busy ? " disabled" : ""}>Refresh</button>
+        <a class="ghost" href="map.html?place=${encodeURIComponent(loc.name)}">Open on map</a>
       </div>` : ""}
     </header>
     ${busy ? `<div class="progress" role="status"><span>${esc(progress.text)}</span><div class="bar"><i style="width:${pct}%"></i></div></div>` : ""}`;

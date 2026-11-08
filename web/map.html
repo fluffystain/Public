@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Intel Brief Map</title>
+<meta name="description" content="Live activity map: geolocated news events, social posts by place, road incidents and natural hazards.">
+<meta name="theme-color" content="#0b1018">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="map.css">
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="vendor/leaflet-heat.js"></script>
+<script type="module" src="js/map.js"></script>
+</head>
+<body class="map-page">
+<div class="classification" role="note">UNCLASSIFIED // OPEN SOURCE</div>
+
+<header class="map-bar">
+  <a class="back" href="./" title="Back to briefs">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" /><circle cx="20" cy="20" r="11" /><circle cx="20" cy="20" r="5" /><path d="M20 1v38M1 20h38" /><circle class="blip" cx="27" cy="11" r="2.4" /></svg>
+    <span>Briefs</span>
+  </a>
+  <form id="search" class="map-search" role="search">
+    <label class="sr" for="place">Go to place</label>
+    <input id="place" type="search" placeholder="Go to a place…" autocomplete="off">
+  </form>
+  <form id="filter-form" class="map-filter">
+    <label class="sr" for="filter">Activity filter</label>
+    <input id="filter" type="search" placeholder="Filter posts &amp; news, e.g. protest" autocomplete="off">
+  </form>
+  <button id="layers-btn" class="ghost" type="button" aria-expanded="false" aria-controls="layers">Layers</button>
+</header>
+
+<div class="map-shell">
+  <div id="map" aria-label="Activity map"></div>
+
+  <section id="layers" class="layers panel" hidden>
+    <div class="panel-title"><span class="label">Layers</span><button type="button" class="ghost small" data-close="layers">Close</button></div>
+    <label><input type="checkbox" id="lyr-events" checked> <span><b>News events heat</b><small>GDELT, last 24 h, geolocated from news reports</small></span></label>
+    <div class="cats" id="cats"></div>
+    <label><input type="checkbox" id="lyr-posts" checked> <span><b>Social posts heat</b><small>Bluesky &amp; Mastodon posts placed by the towns they mention</small></span></label>
+    <label><input type="checkbox" id="lyr-roads" checked> <span><b>Road incidents</b><small>Highway authority open data: DE, FR, ES, FI, NZ, London</small></span></label>
+    <label><input type="checkbox" id="lyr-hazards" checked> <span><b>Natural hazards</b><small>USGS earthquakes (24 h), NASA EONET open events</small></span></label>
+    <label><input type="checkbox" id="lyr-mapillary"> <span><b>Street-level imagery</b><small>Mapillary, at street zoom (needs a free token)</small></span></label>
+    <div id="mly-token-row" class="token-row" hidden>
+      <label for="mly-token">Mapillary client token</label>
+      <input id="mly-token" type="password" placeholder="MLY|…" autocomplete="off">
+      <small>Get one free at mapillary.com/dashboard/developers. Saved in this browser only.</small>
+    </div>
+    <p class="fine" id="data-age"></p>
+  </section>
+
+  <aside id="side" class="side panel" aria-label="Activity in view">
+    <button type="button" class="grab" id="grab" aria-label="Expand or collapse panel"><i></i></button>
+    <div class="side-head">
+      <span class="label">In view</span>
+      <h2 id="view-title">Loading…</h2>
+      <p id="view-sub" class="meta"></p>
+    </div>
+    <div class="tabs" role="tablist" id="side-tabs">
+      <button type="button" role="tab" data-tab="events" aria-selected="true">Events</button>
+      <button type="button" role="tab" data-tab="posts" aria-selected="false">Posts</button>
+      <button type="button" role="tab" data-tab="news" aria-selected="false">News</button>
+      <button type="button" role="tab" data-tab="roads" aria-selected="false">Roads</button>
+      <button type="button" role="tab" data-tab="hazards" aria-selected="false">Hazards</button>
+      <button type="button" role="tab" data-tab="imagery" aria-selected="false">Imagery</button>
+    </div>
+    <div id="side-body" class="side-body"></div>
+  </aside>
+</div>
+</body>
+</html>
